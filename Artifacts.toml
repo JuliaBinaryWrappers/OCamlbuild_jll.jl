@@ -1,0 +1,18 @@
+[[OCamlbuild]]
+arch = "x86_64"
+git-tree-sha1 = "6aa2214c7941df897ad1f3d9cb623804a19e513e"
+libc = "glibc"
+os = "linux"
+
+    [[OCamlbuild.download]]
+    sha256 = "1330b8d5bc0d23c67702d791b1ddce951b12adfae596a4cd3026f281a3e0c454"
+    url = "https://github.com/JuliaBinaryWrappers/OCamlbuild_jll.jl/releases/download/OCamlbuild-v0.15.0+0/OCamlbuild.v0.15.0.x86_64-linux-gnu.tar.gz"
+[[OCamlbuild]]
+arch = "x86_64"
+git-tree-sha1 = "5f12915019f1cc290f11a0dda76ac83e9c0a484b"
+libc = "musl"
+os = "linux"
+
+    [[OCamlbuild.download]]
+    sha256 = "71f5d50d3071bcf539f6ce4d286610a351a232c02b914238d2b24fbd7c953fee"
+    url = "https://github.com/JuliaBinaryWrappers/OCamlbuild_jll.jl/releases/download/OCamlbuild-v0.15.0+0/OCamlbuild.v0.15.0.x86_64-linux-musl.tar.gz"
